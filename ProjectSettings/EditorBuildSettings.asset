@@ -6,10 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
     path: Assets/Scenes/Gaze.unity
     guid: 4247c6c3124e60547a6674f1fcc659c7
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 24682e7512a406e4fa1661f045ddbf1b,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9e3ab97a1f3618f44903ff0fc7bdc88a,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c9c64512a3c80844ea1c7bc7c28752a3,
       type: 2}
